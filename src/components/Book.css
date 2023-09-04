@@ -1,0 +1,125 @@
+.book-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.book-img {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.book-img img {
+  width: 672px;
+  height: 651px;
+  margin-left: -12px;
+}
+
+.cancel-icon{
+  /* border: 1px solid red; */
+  height: 40px;
+  float: right;
+  margin-left: 476px;
+
+}
+
+
+.icon-x {
+  padding-left: 25px;
+  background: url("https://icons.veryicon.com/png/o/miscellaneous/medium-thin-linear-icon/cross-23.png")
+    no-repeat left;
+  background-size: 20px;
+}
+
+
+
+
+.book-form {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-section {
+  /* border: 1px solid red; */
+  width: 450px;
+}
+
+.book-title {
+  margin-bottom: 40px;
+}
+
+.book-title span {
+  color: #333;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+
+
+.form-lable {
+  /* border: 1px solid red; */
+  color: #333;
+  font-family: Poppins;
+  font-size: 19   px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 400% */
+  text-transform: capitalize;
+  width: 100px;
+}
+
+.input-feild {
+  border-radius: 5px;
+  background-color: rgba(68, 68, 79, 0.1) !important;
+  border: none;
+  width: 400px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 400% */
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.icon1 {
+  padding-left: 25px;
+  background: url("https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png")
+    no-repeat left;
+  background-size: 20px;
+ 
+}
+
+.icon2 {
+  padding-left: 25px;
+  background: url("https://cdn-icons-png.flaticon.com/512/542/542638.png")
+    no-repeat left;
+  background-size: 20px;
+}
+
+.icon3 {
+  padding-left: 25px;
+  background: url("https://www.svgrepo.com/show/6064/phone-call.svg") no-repeat
+    left;
+  background-size: 20px;
+}
+
+.button2 button{
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 0px solid #fff;
+  border-radius: 5px;
+  background: #1a2440;
+  width: 400px;
+}

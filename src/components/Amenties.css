@@ -1,0 +1,139 @@
+.container-fluid {
+  /* border: 1px solid red; */
+  height: 90vh;
+  width: 100%;
+}
+
+.amenties-title {
+  color: #00e5a1;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.16px;
+
+  margin-top: 25px;
+  text-align: center;
+}
+
+.amenties-title2 {
+  color: #000;
+  text-align: center;
+  font-family: Gabriela;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 105%; /* 63px */
+  letter-spacing: -1.5px;
+  margin-top: 16px;
+}
+
+.col {
+  /* border: 1px solid red; */
+  margin-top: 50px;
+}
+
+.colum-amneties{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+table{
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+
+}
+
+/* tr{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+} */
+
+.amentie-data {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  /* font-style: normal; */
+  /* font-weight: 600; */
+  line-height: 105%; /* 21px */
+  padding-left: 5px;
+  font-weight: 900 !important;
+}
+
+
+amentie-data2{
+ color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 5px;
+font-style: normal;
+font-weight: 300;
+line-height: 105%; /* 10.5px */
+text-transform: capitalize;
+padding-left: 10px;
+}
+
+.amentie-icon{
+width: 71px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 60px;
+background: #EBFAFF;
+text-align: center;
+
+
+}
+
+.fa-phone{
+    color:#00E5A1;
+}
+
+.fa-car{
+
+    color:#00E5A1;
+}
+
+.fa-cart-shopping{
+
+    color:#00E5A1;
+
+}
+
+.fa-shield{
+
+    color:#00E5A1;
+}
+
+.fa-people-line{
+    color:#00E5A1;
+
+}
+
+.fa-spa{
+
+    color:#00E5A1;
+
+}
+
+.fa-bell{
+    color:#00E5A1 ;
+}
+
+.fa-mattress-pillow{
+    color:#00E5A1 ;
+}
+
+
+.fa-person-swimming{
+    color:#00E5A1 ;
+}
+
+

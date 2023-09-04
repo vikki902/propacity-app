@@ -1,0 +1,126 @@
+.body-img {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://s3-alpha-sig.figma.com/img/f905/cdff/951fa7817e4ddc614c1221c44b1ae602?Expires=1694390400&Signature=X0hzlc74bBz8s5UW35GcmmnR0uAvz8hamBHPt3Pp17Xp~cvJWzIsxy3xrF0yq3uevSoYYSSozSW48MVNF2ee6~xWrtZiuOXDq-SbU2-n7CbLjBopqckwR4NB09H9whPpWUTuyY8GBteQ6tbRd9985iR1zeJHV41yu-CS6~UzLzg5dt2~47vdfwJk1RZXufBfxXTxTI40T8gYZn~RgLYSX0vMMXTl0F1hxZJv2q9njhF7YZ04O0e6NIQu9MT7pNjvc3GJ41WtOgh6ziIbm8KP~qpArjwbwHbKfGSJwN-fdPOSJ~p0~WW63NjQ02ar-FIVY2XGCWjVr0M-U~2zUGM5Sg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  height: 155vh;
+  width: 100%;
+}
+
+.navbar {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  width: 100%;
+  position: sticky; /* To keep the navbar fixed at the top */
+  top: 0;
+}
+
+/* Rest of your styles remain the same */
+
+.logo img {
+  width: 184px;
+  height: 54px;
+  flex-shrink: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button button {
+  padding: 10px 20px;
+  background-color: #0ea57a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0px solid #fff;
+  background: #0ea57a;
+}
+
+.btn-mumbai {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.82px;
+  border-radius: 8px;
+  border: 1.5px solid #fff;
+  width: 241px;
+  height: 56px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 241px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1.5px solid #fff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.82px;
+}
+
+.caption {
+  color: white;
+  width: 600px;
+  position: relative;
+  top: 370px;
+  left: 29%;
+  color: #fff;
+  text-align: center;
+  font-family: Gabriela;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.4px;
+}
+
+.small-caption {
+  width: 156px;
+  color: #00e5a1;
+  text-align: center;
+  font-family: Sharpe PERSONAL;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+  position: relative;
+  top: 335px;
+  left: 45%;
+}
